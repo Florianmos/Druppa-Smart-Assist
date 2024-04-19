@@ -1,0 +1,278 @@
+:root {
+  --checkinvert: invert(1);
+  --primary_modal: #0e1014;
+  --selected: #768fff;
+  --colortext: #ffffff;
+  --colortext2: #000000;
+  --colortext_opacity: #ffffff50;
+  --border_modal: #3b3b3b83;
+
+  --bkgconnect: #1d2023;
+  --bkgapps: #070808;
+  --menuconnect: #16181d;
+  --off_white: rgba(255, 255, 255, 0.418);
+
+  --btnhover: #23262b;
+  --btnactive: #36383b;
+
+  --invert: invert(0);
+  --colorprinc: #252529;
+  // --colordate: #0A090A;
+  // --colorsec:#0B0A0C;
+
+  // --colortopgraph: git diff --shortstat COMMIT_HASH~ COMMIT_HASH#17171B;
+  // --colorgraph:#1A191E;
+  --bckg: #1b1d21;
+  // --bkgcontainer: #1d2023;
+  --bkgcontainer: #070808;
+
+  --borderinput: #aaaaaa00;
+  --checkboxaccount: #1d1e1f;
+  --buttonaccounthover: #063a90;
+
+  --colordate: #212024;
+  // --colorsec:#27262b;
+
+  --colorsec: #1e1f21;
+
+  --colortopgraph: #2d2d33;
+  --colorgraph: #323338;
+
+  --toptable: #101010;
+  --table2: #141414;
+
+  --table2: #101010;
+  --table1: #323436;
+  --blue1: #18dfff;
+  --blue2: #3b90ff;
+
+  --blueapprove: #4149f6;
+  --bluetext: #7690ff;
+  --bluehover: #3c5ceb;
+  --redtext: #ff9191;
+  --redcompo: #953a3a;
+  --redcompohover: #b15050;
+
+  --greenstatus: #55d089;
+  --orangestatus: #f5c74b;
+  --redstatus: #f53f3f;
+
+  --backgroundmodal: #1f2023;
+  --navleft: #0e1014;
+  // homepage
+  --welcom: #00000010;
+  --topbar: rgb(24, 24, 24);
+  --bottom-bar: rgb(17, 17, 17);
+
+  --tile-bckg: rgba(24, 24, 24, 0.345);
+  --tile-border: rgba(184, 184, 184, 0.303);
+  --tile-box-shadow: rgba(221, 221, 221, 0.075);
+
+  --lightselect: rgba(255, 255, 255, 0.02);
+
+  --dashboard_bckg: #232427;
+  --B_W: #ffffff;
+  --whith: #3b3b3b10;
+
+  --select: #849bff;
+  --backg_transparent: #00000060;
+  --Title2: #ffffff50;
+  --choosefile_border: #ffffff60;
+
+  // WorkTeam
+
+  --separateur: rgba(255, 255, 255, 0.062);
+  --separateur_horizontal: #404040;
+  --bar_top: #505050;
+  --yellow_admin: #ffffc7;
+  --bckg_scrollbar: #ffffff10;
+  --scrollbar: #ffffff80;
+
+  --thumbscrollbar: #6e6e6e;
+  --thumbscrollbarhover: #7f7f7f;
+
+  --borderbutton: #707070;
+
+  --rdp-background-color: #333333 !important;
+
+  --ds-background-neutral: #333333 !important;
+  --ds-background-danger-hovered: #474747 !important;
+
+  @media (max-width: 1500px) {
+    //fonts size
+    --veryverybigfont: calc(29px + 6 * ((100vw - 320px) / 680)); //20
+    --verybigfont: calc(13px + 6 * ((100vw - 320px) / 680)); //18
+    --bigfont: calc(12px + 6 * ((100vw - 320px) / 680)); //17
+    --regularfont: calc(11px + 4 * ((100vw - 320px) / 680)); //15
+    --medfont: calc(15px + 0.18vw); //15 + 018
+    --semilittlefont: calc(14px + 0.18vw); //14 + 018
+    --littlefont: calc(12px + 0.18vw); //12 +O.18
+    --verylittlefont: calc(9px + 4 * ((100vw - 320px) / 680)); //11
+    --veryverylittlefont: calc(8px + 3 * ((100vw - 320px) / 680)); //11
+    --veryveryverylittlefont: calc(7px + 3 * ((100vw - 320px) / 680)); //11
+    --tabtitle: calc(6px + 3 * ((100vw - 320px) / 680)); //11
+    --veryverylittlefonttable: calc(8px + 3 * ((100vw - 340px) / 680)); //11
+  }
+
+  @media (max-width: 576px) {
+    //fonts size
+    --veryverybigfont: calc(29px + 6 * ((100vw - 320px) / 680)); //20
+    --verybigfont: calc(13px + 6 * ((100vw - 320px) / 680)); //18
+    --bigfont: calc(12px + 6 * ((100vw - 320px) / 680)); //17
+    --regularfont: calc(11px + 4 * ((100vw - 320px) / 680)); //15
+    --medfont: calc(15px + 0.18vw); //15 + 018
+    --semilittlefont: calc(14px + 0.18vw); //14 + 018
+    --littlefont: 14px; //12 +O.18
+    --verylittlefont: 13px; //11
+    --veryverylittlefont: 12px; //11
+    --veryveryverylittlefont: 11px; //11
+    --tabtitle: 11px; //11
+    --veryverylittlefonttable: 10px; //11
+  }
+  //fonts size
+
+  //fonts size
+  --veryverybigfont: calc(29px + 6 * ((100vw - 320px) / 680)); //20
+  --verybigfont: calc(13px + 6 * ((100vw - 320px) / 680)); //18
+  --bigfont: calc(12px + 6 * ((100vw - 320px) / 680)); //17
+  --regularfont: calc(14px + 4 * ((100vw - 320px) / 680)); //15
+  --medfont: calc(13px + 4 * ((100vw - 320px) / 680)); //15 + 018
+  --semilittlefont: calc(12px + 4 * ((100vw - 320px) / 680)); //14 + 018
+  --littlefont: calc(11px + 4 * ((100vw - 320px) / 680)); //12
+  --verylittlefont: calc(10px + 4 * ((100vw - 320px) / 680)); //11
+  --veryverylittlefont: calc(9px + 3 * ((100vw - 320px) / 680)); //11
+  --veryveryverylittlefont: calc(8px + 3 * ((100vw - 320px) / 680)); //11
+  --tabtitle: calc(7px + 3 * ((100vw - 320px) / 680)); //11
+  --veryverylittlefonttable: calc(10px + 3 * ((100vw - 320px) / 680)); //11
+}
+// Tablette --blue1: #386EFF;
+
+$principal: #f2f2f2;
+$bkgbutton: #eeeff6;
+$bkg: #eeeff6;
+$blue: #4149f6;
+$blue_active: linear-gradient(to right, #2931df, #161ed4);
+$red: #fd7480;
+$green: #2cb08a;
+$notactivate: #d5d5db;
+
+//TEXTE
+$texte: #646464;
+
+//ESPACE NAVBAR
+$navspace: 80px;
+
+//FONTS SIZE
+//@import "./base/rfs.scss";
+
+//FONTS SIZE
+
+$font9: calc(11px + 0.3vw);
+$font6_2: calc(8px + 0.2vw);
+$font6_3: calc(8px + 0.4vw);
+$font7_25: calc(9px + 0.25vw);
+$font8_3: calc(10px + 0.3vw);
+
+$font8_5: calc(10px + 0.5vw);
+
+$font9_3: calc(11px + 0.3vw);
+$font9_4: calc(11px + 0.3vw);
+$font10_3: calc(12px + 0.3vw);
+$font10_4: calc(13px + 0.5vw);
+$font10_5: calc(12px + 0.5vw);
+$font10_6: calc(12px + 0.6vw);
+$font11_3: calc(13px + 0.3vw);
+
+$font12_3: calc(14px + 0.3vw);
+$font18_4: calc(18px + 0.4vw);
+
+//TEXTE
+$texte: #646464;
+$textenotactive: #c7c7cd;
+
+[data-theme="light"] {
+  --rdp-background-color: #333333 !important;
+
+  --primary_modal: #f3f3f3;
+  --selected: #5b78f8;
+  --colortext: #000000dc;
+  --colortext2: #ffffff;
+  --colortext_opacity: #00000050;
+  --border_modal: #a1a1a183;
+
+  --bkgconnect: #fafcff;
+  --bkgcontainer: #2d2d2d;
+  --bkgapps: #070808;
+  --menuconnect: #16181d;
+  --invert: invert(1);
+
+  --btnhover: #23262b;
+  --btnactive: #36383b;
+  --colorprinc: #141214;
+  // --colordate: #0A090A;
+  // --colorsec:#0B0A0C;
+
+  // --colortopgraph: #17171B;
+  // --colorgraph:#1A191E;
+  --bckg: #edf0f5;
+
+  --colordate: #dfd9ee;
+  // --colorsec:#27262b;
+
+  --colorsec: #dce2ec;
+
+  --colortopgraph: #d7d7ee;
+  --colorgraph: #e2e5f1;
+
+  --toptable: #f7f7f7;
+  --table2: #f0f0f0;
+
+  --table1: #323436;
+  --blue1: #18dfff;
+  --blue2: #3b90ff;
+
+  --blueapprove: #4149f6;
+  --bluetext: #7690ff;
+  --bluehover: #3c5ceb;
+
+  --backgroundmodal: #e0e5f5;
+  --navleft: #c1d1f1;
+
+  // homepage
+  --checkinvert: invert(0);
+  --welcom: #d8d8d832;
+
+  --menuconnect: #16181d;
+  --topbar: #f3f3f3;
+  --bottom-bar: #f3f3f3;
+
+  --tile-bckg: rgb(248, 248, 248);
+  --tile-border: rgba(189, 189, 189, 0.26);
+  --tile-box-shadow: rgba(0, 0, 0, 0.055);
+
+  --lightselect: rgba(0, 0, 0, 0.03);
+
+  --dashboard_bckg: #cecece;
+  --B_W: #000000dc;
+  --whith: #3b3b3b00;
+  --remy: invert(1);
+
+  --select: #355aff;
+  --backg_transparent: #00000000;
+  --Title2: #0000004d;
+  --choosefile_border: #0000001a;
+
+  // WorkTeam
+
+  --separateur: #00000010;
+  --separateur_horizontal: #00000010;
+  --bar_top: #00000010;
+  --yellow_admin: #fa983c;
+  --bckg_scrollbar: #00000010;
+  --scrollbar: #00000021;
+
+  --thumbscrollbar: #acacac21;
+  --borderbutton: #707070;
+
+  --checkboxaccount: #1d1e1f;
+}

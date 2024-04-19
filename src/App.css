@@ -1,0 +1,217 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.css-l6rpfx-control {
+  background-color: #070808 !important;
+  border-color: #2e2e2e !important;
+  border: 1px solid;
+  color: white;
+  height: 32px !important;
+  min-height: 32px !important;
+  margin-top: 0 !important;
+}
+.css-1c6l0yj-multiValue{
+  margin-top: 3px;
+}
+.css-1t66mfz{
+  margin-top: -10px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.css-agrbsg-indicatorContainer{
+  margin-top: -10px;
+}
+.css-1mepohi-control{
+  border-color: #3d3d3d !important;
+}
+.css-1mepohi-control{
+  height: 32px !important;
+  min-height: 32px !important;
+}
+.css-6j8sg4-ValueContainer{
+  height: 32px !important;
+  min-height: 24px !important;
+}
+.css-1mepohi-control{
+  background-color: #070808 !important;
+
+  color: white;
+}
+
+.css-1mepohi-control:hover{
+  background-color: #070808 !important;
+  
+  color: white;
+}
+.css-6j8sg4-ValueContainer{
+  height: 24px !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  margin: 0 !important;
+}
+.css-90724z-Input{
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.css-xji0fq-IndicatorsContainer{
+  height: 28px !important;
+}
+.css-x50wjx-menu{
+  margin-top: 0 !important;
+
+  background-color: white !important;
+}
+.css-x50wjx-menu div{
+
+  background-color: rgb(0, 0, 0) !important;
+}
+.css-x50wjx-menu div div:hover{
+
+  background-color: rgb(34, 34, 34) !important;
+
+}
+.css-x50wjx-menu div div:hover div{
+
+  background-color: rgb(34, 34, 34) !important;
+
+}
+
+.css-1eb3szk-ValueContainer{
+  padding-top: 0 !important;
+}
+.css-1jetbg8-Icon{
+  display: flex !important;
+  align-items: center !important;
+  padding-top: 1px !important;
+}
+
+
+
+.css-l6rpfx-control.input, .css-l6rpfx-control.p{
+  color: white;
+}
+.css-1u8sedw-Icon >svg{
+  fill: white !important;
+}
+.css-1u8sedw-Icon >svg path{
+  fill: white !important;
+}
+
+
+/* .css-l6rpfx-control{
+  height: 38px !important;
+  min-height: 38px !important;
+} */
+.css-x50wjx-menu{
+  background-color: black !important;
+}
+.css-m6jh6p-MultiValueRemove:hover path{
+fill: #849bff !important;
+
+}
+.css-m6jh6p-MultiValueRemove:active{
+  background-color: black !important;
+  
+  }
+.css-m6jh6p-MultiValueRemove path{
+  fill: #ffffff !important;
+
+  }
+.css-m6jh6p-MultiValueRemove svg{
+  width: 20px !important;
+  height: 20px !important;
+  }
+  .css-m6jh6p-MultiValueRemove span{
+    width: 20px !important;
+    height: 20px !important;
+    }
+    .kbleDV{
+      height: 100% !important;
+    }
+    .fOlfLS{
+      height: 100% !important;
+    }
+
+    .css-1t66mfz{
+      height: 32px !important;
+    }
+
+    .css-agrbsg-indicatorContainer{
+      display: flex;
+      align-items: baseline;
+    }
+
+    .css-g80lr2{
+      fill: white !important;
+    }
+
+    .datetimepickerzone{
+      cursor: pointer;
+      display: flex;
+      height: calc(13px + 0.75vw);
+      overflow: visible;
+      padding-left: 2px;
+      padding-right: 5px;
+      position: absolute;
+      right: 15px;
+      top: 12px;
+      width: -webkit-fit-content;
+      width: -moz-fit-content;
+      width: fit-content;
+      z-index: 100000000000;
+    }
+
+    .DateInput{
+      display: flex !important;
+    }
+
+
+    .CalendarDay__blocked_calendar, .CalendarDay__blocked_calendar:active, .CalendarDay__blocked_calendar:hover{
+          background:transparent !important; 
+     border: none !important;
+    color: #82888a;
+    }
+    .CalendarMonth_caption{
+      font-size: 15px !important;
+    }
